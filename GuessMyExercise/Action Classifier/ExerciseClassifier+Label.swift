@@ -8,12 +8,12 @@ Defines the app's knowledge of the model's class labels.
 extension ExerciseClassifier {
     /// Represents the app's knowledge of the Exercise Classifier model's labels.
     enum Label: String, CaseIterable {
-        case lunges = "Lunges"
-        case burpees = "Burpees"
-        case jumpingJacks = "Jumping Jacks"
+        case cross = "Cross"
+        case slide = "Slide"
+        //case jumpingJacks = "Jumping Jacks"
 
         /// A negative class that represents irrelevant actions.
-        case otherAction = "Other Action"
+        case otherActions = "Other Actions"
 
         /// Creates a label from a string.
         /// - Parameter label: The name of an action class.
